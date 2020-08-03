@@ -31,7 +31,7 @@ public class ChessPosition {
 		return new ChessPosition((char)('a' - position.getColumn()), 8 - position.getRow());
 	}
 	
-	@Overrride
+	@Override
 	public String toString() {
 		return "" + column + row;
 	}
